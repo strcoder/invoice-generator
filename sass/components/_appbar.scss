@@ -1,0 +1,11 @@
+.Appbar {
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: $primary-color;
+}
+
+.Appbar__logo {
+  color: $white;
+  font-size: 1.5rem;
+}
