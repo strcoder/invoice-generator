@@ -1,0 +1,10 @@
+.Products {
+  gap: 20px;
+  padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .Products {
+    padding: 25px 10%;
+  }
+}
