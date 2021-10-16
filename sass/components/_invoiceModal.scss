@@ -1,0 +1,73 @@
+.InvoiceModal {
+  // width: 300px;
+  // height: 300px;
+  display: grid;
+  align-self: flex-start;
+  background-color: $white;
+  border-radius: $border-radius;
+}
+
+// .InvoiceModal__close {
+//   z-index: -1;
+//   width: 100%;
+//   height: 100%;
+//   grid-row-start: 1;
+//   grid-column-start: 1;
+//   background-color: rgba($black, 0.2);
+// }
+
+.InvoiceModal__body {
+  gap: 10px;
+  padding: 20px;
+  display: grid;
+  overflow: auto;
+  min-width: 250px;
+  max-height: 400px;
+  background-color: $white;
+  border-radius: $border-radius;
+  border: $border-width solid $border-color;
+  & > button {
+    justify-self: flex-end;
+  }
+}
+
+.InvoiceModal__header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: $gray-200;
+  border-radius: $border-radius;
+  justify-content: space-between;
+  border-bottom: $border-width solid $border-color;
+  & p {
+    max-width: 230px;
+    padding-right: 10px;
+  }
+  & button {
+    padding: 0;
+  }
+}
+
+.InvoiceModal__body--header {
+  color: $accent-color;
+}
+
+.InvoiceModal__body--item,
+.InvoiceModal__body--header {
+  gap: 4px;
+  display: grid;
+  grid-template-columns: 150px repeat(3, 70px);
+  & p:nth-child(2),
+  & p:nth-child(3),
+  & p:nth-child(4) {
+    display: flex;
+    justify-self: center;
+  }
+}
+
+.InvoiceModal__body--footer {
+  padding-top: 30px;
+  padding-right: 20px;
+  color: $accent-color;
+  justify-self: flex-end;
+}
