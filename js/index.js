@@ -93,7 +93,7 @@ const productCard = ({ id, product, src, price }) => {
   name.innerText = product;
   priceEl.innerHTML = `Price: $${price}`;
   cta.type = 'button';
-  cta.innerText = 'Agregar';
+  cta.innerText = 'Add to cart';
   add.type = 'button';
   add.innerText = '+';
   remove.type = 'button';
