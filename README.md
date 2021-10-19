@@ -30,4 +30,4 @@ For the backend I use firebase and create some documents for the products with t
 [Firebase](https://firebase.google.com/?hl=es-419&gclid=EAIaIQobChMI35r0k4jQ8wIVSsmUCR2L3QlxEAAYAiAAEgLNovD_BwE&gclsrc=aw.ds)
 
 ## Flowchart
-![Flowchart](./diagrama.png)
+![Flowchart](https://raw.githubusercontent.com/strcoder/invoice-generator/main/Diagrama.png)
